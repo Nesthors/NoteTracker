@@ -1,0 +1,72 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(130deg, #facb4a, #e992cc);
+  height: 1200px;
+}
+
+h1 {
+  color:white;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main #mainButton {
+  width: 90px;
+  height: 40px;
+  margin: 20px;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#main #mainInput {
+  width: 60%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#main #witness {
+  color: red;
+  display: none;
+  position: absolute;
+}
+
+#out {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-bottom: 50px;
+}
+#out .divOut {
+  background-color: #eff30e;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 1px 1px 1px gray, 2px 2px 2px grey, 3px 3px 3px;
+}
+#out .divOut p {
+  margin: 10px;
+  min-width: 200px;
+  min-height: 80px;
+  
+}
+#out .divOut .outButton {
+  width: 80px;
+  height: 30px;
+  background-color: #ece2e2;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 0px white inset, 2px 2px 0px white inset;
+}/*# sourceMappingURL=styles.css.map */
